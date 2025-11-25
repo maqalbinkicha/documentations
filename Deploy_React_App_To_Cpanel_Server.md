@@ -164,7 +164,13 @@ echo "✅ Deployment Complete!"
 echo "---------------------------------------"
 
 ```
-**iv. Run deployment**
+
+**vi. Add necessary permissions to the file**
+```bash
+chmod +x deploy.sh
+```
+
+**v. Run deployment**
 Once you have pushed changes to github, connect the server and run this
 ```bash
 ./deploy.sh
